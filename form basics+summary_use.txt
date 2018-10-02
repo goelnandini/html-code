@@ -5,17 +5,17 @@
 </head>
 <body>
  <form>
-  <h1>username:<input type=text name="username" value="default" size="50"/></h1>
-  <h1>password:<input type=password name=password" value="default" size="50"/></h1>
+  <h1>username:<input type="text" name="username" value="default" size="50"/></h1>
+  <h1>password:<input type="password" name="password" value="default" size="50"/></h1>
   <input type="file" name="DU_MCA"/>
   </br>
   <h1>tell me about urself:</h1>
   </br>
-  <textarea name="textarea"  rows="10" cols="25
+  <textarea name="textarea"  rows="8" cols="15
   ">
   write something
   </textarea>
-  <h1><input type="radio" name="sex" value="male"/>male</h1>
+  <h1><input type="radio" name="sex" value="male" checked/>male</h1>
   <h1><input type="radio" name="sex" value="female"/>female</h1>
   <h1>food types:</h1>
   <h1><input type="checkbox" name="food" value="a"/>a</h1>
@@ -28,6 +28,13 @@
    <option value="abc" >adf</option>
    <option value="abc" >dmn</option>
    </select></h1>
+<details>
+   <summary>abc</summary>
+      <p>a</p>
+      <p>b</p>
+      <p>c</p>
+      <p>b</p>
+</details>	
    <input type="submit" name="submit"/>
  </form>
 </body>
